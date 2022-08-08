@@ -129,3 +129,6 @@ class TestBase_to_json_string(unittest.TestCase):
             os.remove("Base.json")
         except IOError:
             pass
+
+if __name__ == "__main__":
+    unittest.main()
